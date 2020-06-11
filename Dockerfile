@@ -1,5 +1,5 @@
 FROM python:3-slim
-EXPOSE 9090
+EXPOSE 8080
 ADD . .
 RUN pip install Flask
 ENTRYPOINT ["python"]
